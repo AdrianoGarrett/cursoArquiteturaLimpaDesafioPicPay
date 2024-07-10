@@ -5,19 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58d837fc-784d-4829-b3c7-5602a51cab36" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/br/com/curso/core/domain/TaxNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/br/com/curso/core/domain/Transaction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/br/com/curso/core/domain/TransactionPin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/br/com/curso/core/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/br/com/curso/core/domain/Wallet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/br/com/curso/core/domain/enums/TransactionStatusEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/br/com/curso/core/domain/enums/UserTypeEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/br/com/curso/core/exception/TaxNumberException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/br/com/curso/core/exception/TransactionPinException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/br/com/curso/core/exception/TransferException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/br/com/curso/core/exception/enums/ErrorCodeEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/br/com/curso/core/exception/BadRequestException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/br/com/curso/core/exception/InternalServerError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/br/com/curso/core/exception/NotFoundException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
