@@ -5,9 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58d837fc-784d-4829-b3c7-5602a51cab36" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/br/com/curso/core/exception/BadRequestException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/br/com/curso/core/exception/InternalServerError.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/br/com/curso/core/exception/NotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usecase/src/main/java/br/com/curso/usecase/ConsultBalanceUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usecase/src/main/java/br/com/curso/usecase/CreateTransactionPinUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usecase/src/main/java/br/com/curso/usecase/CreateTransactionUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usecase/src/main/java/br/com/curso/usecase/CreateUserUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usecase/src/main/java/br/com/curso/usecase/EmailAvailableUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usecase/src/main/java/br/com/curso/usecase/FindUserByTaxNumberUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usecase/src/main/java/br/com/curso/usecase/TaxNumberAvailableUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usecase/src/main/java/br/com/curso/usecase/TransactionValidateUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usecase/src/main/java/br/com/curso/usecase/UserAutenticateUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usecase/src/main/java/br/com/curso/usecase/UserNotificationUseCase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +32,7 @@
       <list>
         <option value="Enum" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
