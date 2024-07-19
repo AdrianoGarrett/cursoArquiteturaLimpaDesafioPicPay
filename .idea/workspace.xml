@@ -5,21 +5,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58d837fc-784d-4829-b3c7-5602a51cab36" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/application/src/main/java/br/com/curso/application/gateway/CreateTransactionPinGateway.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/src/main/java/br/com/curso/application/gateway/CreateUserGateway.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/src/main/java/br/com/curso/application/gateway/CreateWalletGateWay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/src/main/java/br/com/curso/application/gateway/EmailAvailableGateway.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/src/main/java/br/com/curso/application/usecaseimpl/CreateUserUseCaseImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/src/main/java/br/com/curso/application/usecaseimpl/CreateWalletUseCaseImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/src/main/java/br/com/curso/application/usecaseimpl/EmailAvailableUseCaseImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/src/main/java/br/com/curso/application/usecaseimpl/TransactionPinUseCaseImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/br/com/curso/core/exception/EmailException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usecase/src/main/java/br/com/curso/usecase/CreateWalletUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/src/main/java/br/com/curso/application/gateway/ConsultBalanceGateway.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/src/main/java/br/com/curso/application/gateway/CreateTransactionGateway.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/src/main/java/br/com/curso/application/gateway/FindWalletByTaxNumberGateway.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/src/main/java/br/com/curso/application/gateway/TransactionValidateGateway.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/src/main/java/br/com/curso/application/gateway/TransferGateway.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/src/main/java/br/com/curso/application/gateway/UserAuthenticateGateway.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/src/main/java/br/com/curso/application/gateway/UserNotificationGateway.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/src/main/java/br/com/curso/application/usecaseimpl/ConsultBalanceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/src/main/java/br/com/curso/application/usecaseimpl/CreateTransactionImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/src/main/java/br/com/curso/application/usecaseimpl/FindWalletByTaxNumberUseCaseImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/src/main/java/br/com/curso/application/usecaseimpl/TransactionValidateUseCaseImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/src/main/java/br/com/curso/application/usecaseimpl/TransferUseCaseImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/src/main/java/br/com/curso/application/usecaseimpl/UserAuthenticateUseCaseImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/src/main/java/br/com/curso/application/usecaseimpl/UserNotificationUseCaseImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/br/com/curso/core/exception/AuthenticateException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/br/com/curso/core/exception/InternalServerErrorException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/br/com/curso/core/exception/NotificationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usecase/src/main/java/br/com/curso/usecase/FindWalletByTaxNumberUseCase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/br/com/curso/core/domain/TransactionPin.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/br/com/curso/core/domain/TransactionPin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/br/com/curso/core/exception/TaxNumberException.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/br/com/curso/core/exception/TaxNumberException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/java/br/com/curso/application/gateway/CreateTransactionPinGateway.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/java/br/com/curso/application/gateway/CreateUserGateway.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/br/com/curso/application/gateway/CreateUserGateway.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/java/br/com/curso/application/gateway/CreateWalletGateWay.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/java/br/com/curso/application/usecaseimpl/CreateUserUseCaseImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/br/com/curso/application/usecaseimpl/CreateUserUseCaseImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/java/br/com/curso/application/usecaseimpl/CreateWalletUseCaseImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/java/br/com/curso/application/usecaseimpl/TransactionPinUseCaseImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/br/com/curso/core/exception/InternalServerError.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/main/java/br/com/curso/core/exception/enums/ErrorCodeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/br/com/curso/core/exception/enums/ErrorCodeEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usecase/src/main/java/br/com/curso/usecase/CreateTransactionPinUseCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/usecase/src/main/java/br/com/curso/usecase/CreateTransactionUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/usecase/src/main/java/br/com/curso/usecase/CreateTransactionUseCase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/usecase/src/main/java/br/com/curso/usecase/CreateUserUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/usecase/src/main/java/br/com/curso/usecase/CreateUserUseCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usecase/src/main/java/br/com/curso/usecase/CreateWalletUseCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/usecase/src/main/java/br/com/curso/usecase/FindUserByTaxNumberUseCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/usecase/src/main/java/br/com/curso/usecase/TransactionValidateUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/usecase/src/main/java/br/com/curso/usecase/TransactionValidateUseCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usecase/src/main/java/br/com/curso/usecase/TransferUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/usecase/src/main/java/br/com/curso/usecase/TransferUseCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usecase/src/main/java/br/com/curso/usecase/UserAutenticateUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/usecase/src/main/java/br/com/curso/usecase/UserAutenticateUseCase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

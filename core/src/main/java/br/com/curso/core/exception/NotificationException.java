@@ -1,8 +1,9 @@
 package br.com.curso.core.exception;
 
-public class InternalServerError extends Exception{
+public class NotificationException extends Exception {
     private String code;
-    public InternalServerError (String message, String code){
+
+    public NotificationException(String message, String code) {
         super(message);
         this.code = code;
     }
